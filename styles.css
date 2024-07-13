@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* text-align: center; */
   color: #0d1321;
 }
 .azeret-mono-normal {
@@ -13,9 +12,6 @@
 .title {
   font-size: 32px;
   font-weight: bolder;
-}
-a {
-  text-decoration: none;
 }
 .description{
   font-size: 16px;
@@ -64,12 +60,16 @@ nav button {
   color: white;
   font-weight: 500;
   font-size: 20px;
+  text-decoration: none;
 }
 .banner-content > .title{
     font-size: 48px;
 line-height: 68px;
 margin:24px 0px;
 }
+
+/* why web developement section */
+
 .reason{
    margin:74px 150px;
    border-radius: 16px;
@@ -110,6 +110,9 @@ margin:24px 0px;
 .reason >p{
   margin: 24px 47px 48px 47px;
 }
+
+/* inspiration section */
+
 .inspiration{
   margin:16px 150px 150px 150px;
 }
@@ -125,6 +128,54 @@ iframe{
   position:relative;
   width:100%;
 }
-.inspiration > p{
+.inspiration > p ,.current-target >p ,.next-target >p{
   margin:24px 144px 48px 144px;
+}
+
+/* target section */
+
+.target{
+  margin:0px 150px 47px 150px;
+}
+a{
+font-size: 16px;
+font-weight: 700;
+margin-top:24px;
+}
+.current-items{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:111px;
+  text-align: left;
+  gap:24px;
+}
+.current-item{
+  padding:40px;
+  border-radius: 16px;
+}
+.html{
+  background: rgba(255, 76, 30, 0.05);
+}
+.css{
+  background: rgba(0, 76, 232, 0.05);
+}
+.js{
+  background: rgba(255, 223, 0, 0.05);
+}
+.title3{
+  font-size: 24px;
+  font-weight: 800;
+  margin:24px 0px 8px 0px;
+}
+.next-item{
+  display: flex;
+  gap:24px;
+  border-radius:16px;
+  padding:40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  text-align: left;
+  margin-bottom:24px;
+}
+.current-items .description ,.next-items .description{
+  margin-bottom: 24px;
 }
